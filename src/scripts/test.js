@@ -1,1 +1,1 @@
-export const ABC = 'ABC'
+export const ABC = 'i am from test.js file'
