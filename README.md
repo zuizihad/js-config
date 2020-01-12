@@ -36,5 +36,11 @@ npm i -D babel-loader @babel/core @babel/preset-env webpack
 npm i -D @babel/plugin-proposal-class-properties
 
 # plugin: 
-working with css loader and his plugin
+working with css loader and its plugin
 npm i -D css loader mini-css-extract-plugin
+
+if we want to working with a new file then we must need 
+a loader, this loader also produce a new file . for these we need plugin. 
+
+working with html loader and its plugin
+npm i -D html-loader html-webpack-plugin
