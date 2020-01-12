@@ -1,5 +1,5 @@
 const path = require('path');
-
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
     //webpack entry pint
     entry: './src/scripts/index.js',
@@ -21,11 +21,24 @@ module.exports = {
                     loader: 'babel-loader',
                     options: {
                         presets: ['@babel/preset-env'],
+                        //plugin foe individual loaders
                         plugins:
                         ['@babel/plugin-proposal-class-properties']
                     }
                 }
+            },
+            {
+                test: /\.css$/,
+                use: [MiniCssExtractPlugin.loader,
+                'css-loader']
             }
         ]
-    }  
+    },
+    //working with plugins
+    plugins: [
+        new MiniCssExtractPlugin({
+            filename: "[name].css",
+            chunkFilename: "[id].css"
+        })
+    ]  
 }

@@ -24,7 +24,7 @@ mode: 'development'
 
 
 
-# use babel js for converting ES6 code to ES5 for all browser support
+# use babel js for converting ES6 code to ES5 for all browser support by using loaders
 out of the box webpack only understands javaScripts and JSON files. 
 Loaders allow webpack to process other types of files and convert them into a valid module.   
 
@@ -33,6 +33,8 @@ babel js connect with webpack by using loaders.
 
 npm i -D babel-loader @babel/core @babel/preset-env webpack
 
-
 npm i -D @babel/plugin-proposal-class-properties
 
+# plugin: 
+working with css loader and his plugin
+npm i -D css loader mini-css-extract-plugin

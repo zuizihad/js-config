@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n\n\nvar fn = function fn() {\n  console.log(\"i am fn\");\n};\n\nfn();\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__[\"ABC\"]);\n\n//# sourceURL=webpack:///./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.css */ \"./src/styles/index.css\");\n/* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nvar fn = function fn() {\n  console.log(\"i am fn\");\n};\n\nfn();\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__[\"ABC\"]);\n\n//# sourceURL=webpack:///./src/scripts/index.js?");
 
 /***/ }),
 
@@ -107,6 +107,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ABC\", function() { return ABC; });\nvar ABC = 'ABC';\n\n//# sourceURL=webpack:///./src/scripts/test.js?");
+
+/***/ }),
+
+/***/ "./src/styles/index.css":
+/*!******************************!*\
+  !*** ./src/styles/index.css ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/styles/index.css?");
 
 /***/ })
 
