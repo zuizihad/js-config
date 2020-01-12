@@ -12,6 +12,12 @@ module.exports = {
     },
     //webpack mode
     mode: 'development',
+
+    //working with webpack dev server
+    devServer: {
+      port: 2222,
+      open: true  
+    },
     //working with loaders
     module: {
         rules: [
