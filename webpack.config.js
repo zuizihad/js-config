@@ -9,5 +9,23 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     //webpack mode
-    mode: 'development'  
+    mode: 'development',
+    //working with loaders
+    module: {
+        rules: [
+            {
+                //working for babel loader
+                //regex for searching text
+                test: /\.js$/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env'],
+                        plugins:
+                        ['@babel/plugin-proposal-class-properties']
+                    }
+                }
+            }
+        ]
+    }  
 }

@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n\n\nconst fn =() => {\n    console.log(\"i am fn\")\n}\n\nfn()\n\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__[\"ABC\"])\n\n//# sourceURL=webpack:///./src/scripts/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ \"./src/scripts/test.js\");\n\n\nvar fn = function fn() {\n  console.log(\"i am fn\");\n};\n\nfn();\nconsole.log(_test__WEBPACK_IMPORTED_MODULE_0__[\"ABC\"]);\n\n//# sourceURL=webpack:///./src/scripts/index.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _tes
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ABC\", function() { return ABC; });\nconst ABC = 'ABC'\n\n//# sourceURL=webpack:///./src/scripts/test.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ABC\", function() { return ABC; });\nvar ABC = 'ABC';\n\n//# sourceURL=webpack:///./src/scripts/test.js?");
 
 /***/ })
 
