@@ -45,6 +45,6 @@ a loader, this loader also produce a new file . for these we need plugin.
 working with html loader and its plugin
 npm i -D html-loader html-webpack-plugin
 
-#webpack development server:
+# webpack development server:
 
 npm i -D webpack-dev-server
